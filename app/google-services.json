@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412231059549",
+    "firebase_url": "https://ttalk-final.firebaseio.com",
+    "project_id": "ttalk-final",
+    "storage_bucket": "ttalk-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412231059549:android:c3c886d7057118ca",
+        "android_client_info": {
+          "package_name": "volare.com.ttalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412231059549-m0rtr78e8q77vlp48vee7lt3gp7p9k1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "volare.com.ttalk",
+            "certificate_hash": "33dfa4577600569c3fa9113cef2ebedab85526d4"
+          }
+        },
+        {
+          "client_id": "412231059549-vfnes437atl8mkq65gson5k5om6u3ull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo7L0e4BANQZ0ePkSiPYcfVxqxd9-UVZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412231059549-vfnes437atl8mkq65gson5k5om6u3ull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

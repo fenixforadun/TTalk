@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:layout_margin="8dp"
+	tools:context="volare.com.ttalk.SignupActivity">
+
+	<ImageView
+		android:id="@+id/signupActivity_imageview_profile"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_margin="50dp"
+		android:src="@drawable/ic_add_to_photos_black_24dp" />
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/signupActivity_edittext_email"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="E-MAIL" />
+
+	</android.support.design.widget.TextInputLayout>
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/signupActivity_edittext_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="NAME" />
+
+	</android.support.design.widget.TextInputLayout>
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/signupActivity_edittext_password"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="PASSWORD"
+			android:inputType="textPassword" />
+
+	</android.support.design.widget.TextInputLayout>
+
+	<Button
+		android:id="@+id/signupActivity_button_signup"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Sign-UP" />
+
+</LinearLayout>
